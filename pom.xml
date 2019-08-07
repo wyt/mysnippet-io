@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.mysnippet</groupId>
-	<artifactId>backend</artifactId>
+	<artifactId>mysnippet-io</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>backend</name>
 	<description>backend project for Spring Boot</description>
