@@ -1,4 +1,4 @@
-package git.wyt.backend.git.wyt.backend.domain;
+package io.mysnippet.backend.domain;
 
 import lombok.Getter;
 import lombok.Setter;
