@@ -11,8 +11,8 @@
 	<groupId>io.mysnippet</groupId>
 	<artifactId>mysnippet-io</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>backend</name>
-	<description>backend project for Spring Boot</description>
+	<name>mysnippet-io</name>
+	<description>mysnippet-io project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
