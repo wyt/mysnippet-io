@@ -33,5 +33,5 @@ public class AppUser extends Moment implements Serializable {
   private String email;
 
   /** 手机号 */
-  private int mobile;
+  private String mobile;
 }
