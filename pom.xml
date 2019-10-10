@@ -29,5 +29,6 @@
     <modules>
         <module>mysnippet-io-ui</module>
         <module>mysnippet-io-server</module>
+        <module>spring-samples</module>
     </modules>
 </project>
