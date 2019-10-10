@@ -1,4 +1,4 @@
-package io.mysnippet.samples.service;
+package io.mysnippet.samples.ioc.service;
 
 /**
  * @author wangyongtao

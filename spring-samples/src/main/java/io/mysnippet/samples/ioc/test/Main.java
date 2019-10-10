@@ -1,8 +1,8 @@
-package io.mysnippet.samples.test;
+package io.mysnippet.samples.ioc.test;
 
-import io.mysnippet.samples.config.FooBarConfig;
-import io.mysnippet.samples.service.FooBarService;
-import io.mysnippet.samples.service.impl.FooBarServiceImpl;
+import io.mysnippet.samples.ioc.config.FooBarConfig;
+import io.mysnippet.samples.ioc.service.FooBarService;
+import io.mysnippet.samples.ioc.service.impl.FooBarServiceImpl;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

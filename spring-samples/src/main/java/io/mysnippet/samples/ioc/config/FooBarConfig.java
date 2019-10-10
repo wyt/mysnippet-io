@@ -1,4 +1,4 @@
-package io.mysnippet.samples.config;
+package io.mysnippet.samples.ioc.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +8,5 @@ import org.springframework.context.annotation.Configuration;
  * @date 2019-10-10
  */
 @Configuration
-@ComponentScan("io.mysnippet.samples.service")
-public class FooBarConfig {
-
-}
+@ComponentScan("io.mysnippet.samples.ioc.service")
+public class FooBarConfig {}

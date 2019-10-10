@@ -1,6 +1,6 @@
-package io.mysnippet.samples.service.impl;
+package io.mysnippet.samples.ioc.service.impl;
 
-import io.mysnippet.samples.service.FooService;
+import io.mysnippet.samples.ioc.service.FooService;
 import org.springframework.stereotype.Service;
 
 /**

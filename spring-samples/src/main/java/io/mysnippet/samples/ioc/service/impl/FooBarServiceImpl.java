@@ -1,8 +1,8 @@
-package io.mysnippet.samples.service.impl;
+package io.mysnippet.samples.ioc.service.impl;
 
-import io.mysnippet.samples.service.BarService;
-import io.mysnippet.samples.service.FooBarService;
-import io.mysnippet.samples.service.FooService;
+import io.mysnippet.samples.ioc.service.BarService;
+import io.mysnippet.samples.ioc.service.FooBarService;
+import io.mysnippet.samples.ioc.service.FooService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
