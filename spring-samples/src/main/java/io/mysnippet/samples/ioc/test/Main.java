@@ -16,7 +16,7 @@ public class Main {
         new AnnotationConfigApplicationContext(FooBarConfig.class);
 
     FooBarService fooBarService =
-        annotationConfigApplicationContext.getBean(FooBarServiceImpl.class);
+        annotationConfigApplicationContext.getBean(FooBarService.class);
     String result = fooBarService.foobar();
     System.out.println(result);
 
