@@ -11,6 +11,5 @@ public class MySnippetApplicationTests {
 
   @Test
   public void contextLoads() {
-
   }
 }

@@ -18,7 +18,7 @@ public class AppUser extends Moment implements Serializable {
   private static final long serialVersionUID = -8580722592397126361L;
 
   /** ID */
-  private int id;
+  private long id;
 
   /** 昵称 */
   private String nickname;
