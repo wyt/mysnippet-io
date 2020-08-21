@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
  * @author wangyongtao
  * @date 2019-10-10
  */
-@Service
+@Service("fooService")
 public class FooServiceImpl implements FooService {
 
   @Override

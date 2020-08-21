@@ -4,13 +4,15 @@ import io.mysnippet.samples.ioc.service.BarService;
 import io.mysnippet.samples.ioc.service.FooBarService;
 import io.mysnippet.samples.ioc.service.FooService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
 /**
  * @author wangyongtao
  * @date 2019-10-10
  */
-@Service
+@Service("fooBarService")
+@DependsOn(value = {"barService"})
 public class FooBarServiceImpl implements FooBarService {
 
   @Autowired private FooService fooService;
